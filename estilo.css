@@ -1,0 +1,191 @@
+/* reset de css */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* #-------------------begin the real css---------------# */
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: darkturquoise;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    width: 960px;
+    height: 80px;
+    line-height: 80px;
+    /* background-color: brown; */
+    margin: 0 auto;
+}
+
+header ul li{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 23px;   
+}
+
+section.big{
+    position: relative;
+    width: 950px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+section.big img{
+    position: absolute;
+    bottom: 0;
+}
+
+section.big h1{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    right: 50px;
+    bottom: 200px;
+}
+
+section.big h3{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 200;
+    right: 50px;   
+    bottom: 180px;
+}
+
+section.big a{
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 200;
+    right: 50px;
+    bottom: 160px;
+}
+
+section.big .foto1{
+    width: 600px;
+    height: 380px;
+}
+
+section.boxes{
+    width: 960px;
+    height: 280px;
+    margin: 0 auto;
+    background: #087ab2;
+}
+
+section.boxes .box .last{
+    border-right: none;
+}
+
+section.boxes .box{
+    width: 240px;
+    float: left;
+    border-right: 1px solid rgba(225, 225, 225, 0.3);
+    text-align: center;
+    margin-left: -1px;
+}
+
+section.boxes .box p{
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+section.boxes .box img{
+    width: 200px;
+    height: 180px;
+    margin-top: 30px;
+}
+
+section.in{
+    width: 960px;
+    height: 70px;
+    background-color: #087ab2;
+    margin: 0 auto;
+    line-height: 70px;
+    text-align: center;
+}
+
+section.in .inp{
+    font-family: 'Raleway';
+    height: 30px;
+    width: 260px;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(225, 225, 225, 0.3);
+    font-family: 'Raleway',sans-serif;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+
+section.in .ani{
+    background-color: rgba(225, 225, 225, 0.3);
+    width: 120px;
+    height: 35px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+    border: 1px solid white;
+}
+
+
+
+
+
+
